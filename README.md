@@ -71,6 +71,7 @@ Open the backend folder in IntelliJ IDEA
 Ensure Java 17 is installed
 Run SmartComplaintSystemApplication.java
 Backend starts at: http://localhost:8080
+
 🔹 Frontend Setup
 Open the frontend folder
 Open index.html in a web browser
