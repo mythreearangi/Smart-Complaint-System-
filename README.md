@@ -8,7 +8,8 @@ In many institutions and public organizations, complaint handling is manual, uno
 The Smart Complaint Management System provides an end-to-end digital platform where users can submit complaints and track their status, while administrators can monitor, prioritize, and resolve complaints efficiently. The system uses AI-based logic to automatically categorize complaints, assign priorities, and escalate unresolved complaints over time.
 
 ✨ Key Features
-👤 User Features
+👤 User Features  
+
 User registration and secure login
 Submit complaints with description (and optional image)
 AI-based automatic complaint categorization
@@ -17,6 +18,7 @@ View previously submitted complaints
 Track complaint status (Submitted / In Progress / Resolved)
 Secure logout
 🛠️ Admin Features
+
 Admin registration and secure login
 Centralized dashboard to view all complaints
 Filter complaints by category and status
@@ -25,11 +27,13 @@ View complaint submission date and last updated time
 Monitor pending, in-progress, and resolved complaints
 Secure logout
 🤖 AI Features
+
 Automatic complaint categorization using text analysis
 Smart priority assignment based on complaint severity
 Time-based priority escalation for unresolved complaints
 Ensures fairness and faster resolution of critical issues
 🧱 System Architecture
+
 The project follows a layered architecture:
 
 Controller Layer – Handles HTTP requests and responses
@@ -39,6 +43,7 @@ Entity Layer – Maps Java objects to database tables
 Frontend and backend communicate through RESTful APIs.
 
 🛠️ Tech Stack
+
 Frontend
 HTML
 CSS
@@ -55,7 +60,9 @@ Postman – API testing
 GitHub – Version control and source code hosting
 IntelliJ IDEA – Backend development
 VS Code – Frontend development
+
 ▶️ How to Run the Project
+
 🔹 Backend Setup
 Open the backend folder in IntelliJ IDEA
 Ensure Java 17 is installed
@@ -65,15 +72,18 @@ Backend starts at: http://localhost:8080
 Open the frontend folder
 Open index.html in a web browser
 Select User or Admin and proceed with login/register
-🧪 API Testing
-All backend APIs were tested using Postman before frontend integration.
 
+🧪 API Testing
+
+All backend APIs were tested using Postman before frontend integration.
 Sample APIs:
 POST /complaints/submit
 GET /complaints/all
 PUT /complaints/update/{id}
 Authentication APIs for User/Admin
+
 🚀 Future Scope
+
 Integration with advanced AI models (OpenAI / Gemini)
 Mobile application (Android / iOS)
 Real-time notifications (Email / SMS / Push)
@@ -81,7 +91,9 @@ Cloud deployment for scalability
 Advanced analytics and reporting dashboard
 Enhanced security using JWT authentication
 🏁 Conclusion
+
 The Smart Complaint Management System provides a scalable, intelligent, and transparent solution for managing complaints efficiently. By combining AI-based automation with a clean layered architecture, the system ensures faster resolution and improved user satisfaction.
 
 👨‍💻 Developed For
+
 Vibe Coding Hackathon / Academic Mini Project
