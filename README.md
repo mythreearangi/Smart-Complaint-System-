@@ -8,6 +8,7 @@ In many institutions and public organizations, complaint handling is manual, uno
 The Smart Complaint Management System provides an end-to-end digital platform where users can submit complaints and track their status, while administrators can monitor, prioritize, and resolve complaints efficiently. The system uses AI-based logic to automatically categorize complaints, assign priorities, and escalate unresolved complaints over time.
 
 ✨ Key Features
+
 👤 User Features  
 
 User registration and secure login
@@ -26,12 +27,14 @@ Update complaint status in real time
 View complaint submission date and last updated time
 Monitor pending, in-progress, and resolved complaints
 Secure logout
+
 🤖 AI Features
 
 Automatic complaint categorization using text analysis
 Smart priority assignment based on complaint severity
 Time-based priority escalation for unresolved complaints
 Ensures fairness and faster resolution of critical issues
+
 🧱 System Architecture
 
 The project follows a layered architecture:
